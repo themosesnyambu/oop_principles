@@ -1,0 +1,40 @@
+Polymorphism is a concept by which we can perform a dingle task in
+different ways.
+A single entity(object) behaves differently in different cases
+
+There are two types:
+    1) Static (Compile Time) Polymorphism
+    2) Dynamic (Runtime ) Polymorphism
+
+
+Polymorphism can be primarily achieved by sub-classing or implementing
+an interface
+
+Polymorphism can make use of inheritance to add dynamic behavior in the code
+
+Advantages of Polymorphism:
+    1) We can achieve flexibility in our code because we can perform various
+       operations by using methods with the same names according to requirements
+    2) The main benefit is when we provide implementation to abstract class
+       or interface
+
+while in inheritance the child class inherits behavior from parent class, in
+polymorphism the child redefines already defined behavior
+
+--> Static polymorphism
+        object binding with methods happens at compile time 
+        The behavior of a method is decided based on the parameters of method
+        It can be achieved by method overloading, constructor overloading 
+        or method hiding
+
+
+--> Dynamic Polymorphism
+        Object binding with methods happens at runtime
+        JVM binds the method call with method definition at runtime and
+        invokes the relevant method during runtime when the method is called
+        This happens because objects are created at runtime and method is
+        called using an object of the class
+
+        It can be achieved using overriding 
+
+

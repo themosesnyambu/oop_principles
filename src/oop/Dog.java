@@ -28,9 +28,16 @@ public class Dog extends Animal{
         System.out.println("The dog "+sound);
     }
     
+    //Dynamic Polymorphism
     //Overrides the parent method
     @Override
     public void walks(String movement){
+        System.out.println("The dog "+movement);
+    }
+    
+    //Static Polymorphism
+    //Overloading, same name different signature
+    public void walks(String movement, String baby_movement){
         System.out.println("The dog "+movement);
     }
     

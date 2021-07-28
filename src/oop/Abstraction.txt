@@ -1,0 +1,19 @@
+Abstraction is the process of hiding implementation details and showing 
+only functionality to the user
+
+In Java it is achieved through Abstract classes (0-100%) and Interfaces (100%)
+
+--> Abstract Class
+    Class which contain abstract keyword in its declaration
+    They may or may not contain abstract methods
+    An abstract class cannot be instantiated
+    A subclass must implement all abstract methods
+
+    --> Abstract Methods
+        Use abstract keyword 
+        Contains method signature but no keyword
+        The class containing it must be declared as abstract
+        Any class inheriting the current class must either override the abstract
+        method or declare itself as abstract
+
+

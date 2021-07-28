@@ -1,9 +1,9 @@
 package oop;
 
 public abstract class Employee {
-    private String name;
-    private String address;
-    private int number;
+    private final String name;
+    private final String address;
+    private final int number;
     
     public Employee(String name, String addres, int number){
         //An Abstract class can have a constructor

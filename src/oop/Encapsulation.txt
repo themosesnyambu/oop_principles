@@ -1,0 +1,10 @@
+Mechanism of wrapping the variables and the methods together as 
+a single unit
+It is also known as data hiding
+
+To achieve it, declare the variables as private
+Create getters and setters
+
+Benefits are:-
+    Variables can be made read-only or write-only
+    A class can have total control over what is stored in its fields

@@ -1,0 +1,4 @@
+Used when there is one-to-many relationship between objects such as if
+one object is modified, its dependent objects are to be notified automatically.
+
+It uses three actor classes, Subject, Observer and Client

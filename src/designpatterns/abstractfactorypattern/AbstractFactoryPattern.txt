@@ -1,0 +1,6 @@
+Considered to be another layer of abstraction above Factory Pattern
+Work around a super-factory which creates other factories
+
+--> an interface is responsible for creating a factory of related objects
+without explicitly specifying their classes
+

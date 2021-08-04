@@ -1,0 +1,8 @@
+Pattern used to create objects made of other objects
+and when you want the creation of these parts to be independent 
+of the main object 
+
+And to hide creation of the parts from the client so both are independent of
+each other
+
+The builder part of the builder pattern knows the specifics and no other part does

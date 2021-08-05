@@ -1,0 +1,7 @@
+When you want to create new objects by cloning other objects
+ allows for adding any subclass of a known superclass at runtime
+When there are numerous potential  clases that you want to only use if
+needed at run time
+
+
+it reduces the need for creating multiple subclasses

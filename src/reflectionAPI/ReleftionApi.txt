@@ -1,0 +1,7 @@
+Used to manipulate a class and everything in a class
+It is most often dynamic and can slow down a program since it is dynamic
+and the JVM cannot optimize the code if it is dynamic
+
+Cant be used with applets because the applets require added security
+
+
